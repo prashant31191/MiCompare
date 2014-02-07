@@ -35,6 +35,8 @@
     <string name="buffering">缓冲中...</string>
     <string name="airkan_video_playing_in">视频正在</string>
     <string name="airkan_video_playing">播放</string>
+    <string name="airkan_tips">"点这里，将正在播放的视频
+投影到盒子/电视上"</string>
     <string name="menu_item_orientation_auto_sensor_action">开启自动旋转</string>
     <string name="menu_item_orientation_fixed_by_videosize_action">关闭自动旋转</string>
     <string name="menu_item_screen_shot">截屏</string>

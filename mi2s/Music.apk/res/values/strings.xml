@@ -3,7 +3,7 @@
     <string name="music_browser_label">Music</string>
     <string name="mediaplaybacklabel">Music</string>
     <string name="music_picker_title">Select track</string>
-    <string name="mi_effect">MiSound</string>
+    <string name="mi_effect">Mi Sound</string>
     <string name="find_ktv">Discover KTV</string>
     <string name="unknown_artist_name">Unknown artist</string>
     <string name="unknown_album_name">Unknown album</string>
@@ -34,7 +34,7 @@
     <string name="bind_baidu_account_setting">Bind Baidu Account</string>
     <string name="bind_baidu_account_summary">Sync playlists and enjoy other services by binding your Baidu music account to the Music app</string>
     <string name="synchronize_playlist_setting">Sync playlist</string>
-    <string name="synchronize_playlist_summary">Sync your playlist with MiCloud</string>
+    <string name="synchronize_playlist_summary">Sync your playlist with Mi Cloud</string>
     <string name="not_login">Sign in</string>
     <string name="mobile_connect_settings">Mobile network</string>
     <string name="download_album_settings">Get album artwork</string>
@@ -244,8 +244,8 @@
     <string name="project_device">Mi Box</string>
     <string name="project_device_mobile">Mobile device</string>
     <string name="headphone_settings">Headphone type settings</string>
-    <string name="mi_effect_title">Use MiSound enhancer</string>
-    <string name="mi_effect_summary">Always use MiSound enhancer when using speakers</string>
+    <string name="mi_effect_title">Mi Sound enhancer</string>
+    <string name="mi_effect_summary">"Always use Mi Sound when using phone's speakers"</string>
     <string name="dirac_mode_in_ear">Xiaomi in-ear headphones</string>
     <string name="dirac_mode_earbuds">Xiaomi earbuds</string>
     <string name="dirac_mode_piston_100">Xiaomi piston headphones</string>

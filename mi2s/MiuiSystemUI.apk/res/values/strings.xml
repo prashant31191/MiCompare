@@ -222,7 +222,7 @@ yyyy.M.d"</string>
     <string name="screen_key_home">Home button</string>
     <string name="screen_key_recent_apps">Recent apps button</string>
     <string name="screen_key_back">Back button</string>
-    <string name="status_bar_network_flow_today">Today:%1$s</string>
+    <string name="status_bar_network_flow_today">Today: %1$s</string>
     <string name="status_bar_network_flow">"Today: %1$s    Remaining: %2$s    Package: %3$s"</string>
     <string name="status_bar_network_flow_exceed">"Today: %1$s    Exceeded: %2$s    Package: %3$s"</string>
     <string name="drive_mode_tip">"You're in car mode"</string>
@@ -255,6 +255,9 @@ yyyy.M.d"</string>
     <string name="headset_settings">Headphones connected</string>
     <string name="headset_info">Customize button functions</string>
     <string name="headset_custom">Customize</string>
+    <string name="oldman_status_bar_time_format">HH:mm</string>
+    <string name="oldman_airplane_mode_text">Airplane</string>
+    <string name="oldman_incall_text">incall</string>
     <string name="audio_effect_settings">Set headphones type</string>
     <string name="audio_effect_info">Optimize audio</string>
     <string name="audio_effect_custom">Configure</string>

@@ -29,7 +29,7 @@
     <string name="android_lockscreen_emergency_call">@android:string/lockscreen_too_many_failed_attempts_dialog_message</string>
     <string name="android_lockscreen_glogin_checking_password">@android:string/granularity_label_word</string>
     <string name="android_lockscreen_glogin_forgot_pattern">@android:string/keyguard_accessibility_pin_unlock</string>
-    <string name="android_lockscreen_glogin_instructions">To unlock, sign in to your Xiaomi account.</string>
+    <string name="android_lockscreen_glogin_instructions">To unlock, sign in to your Xiaomi Account.</string>
     <string name="android_lockscreen_glogin_invalid_input">@android:string/password_keyboard_label_alt_key</string>
     <string name="android_lockscreen_glogin_password_hint">@android:string/password_keyboard_label_symbol_key</string>
     <string name="android_lockscreen_glogin_submit_button">@android:string/password_keyboard_label_alpha_key</string>
@@ -65,8 +65,8 @@
     <string name="call_record_or">or</string>
     <string name="call_record_sample_prefix_miui">Call recording</string>
     <string name="caller_info_name_delimiter">Or</string>
-    <string name="check_phone_error_title">Sync service not enabled</string>
-    <string name="check_phone_io_error">Network error.</string>
+    <string name="check_phone_error_title">"Sync hasn't been activated"</string>
+    <string name="check_phone_io_error">Network error</string>
     <string name="childrens_day">儿童节</string>
     <string name="chinese_youth_day">青年节</string>
     <string name="christmas_day">圣诞节</string>
@@ -305,35 +305,34 @@
     <string name="day_of_month">" %d"</string>
     <string name="delete">Delete</string>
     <string name="double_seventh_day">七夕</string>
-    <string name="error_forbidden">There are some problems with your account: sync disabled.</string>
-    <string name="error_not_acceptable">Server error: sync disabled.</string>
+    <string name="error_forbidden">There are some problems with your account.</string>
+    <string name="error_not_acceptable">A server error occurred.</string>
     <string name="error_title">Sync error</string>
-    <string name="error_unauthorized">Too many login attempts: sync disabled.</string>
+    <string name="error_unauthorized">Sync has been disabled due to too many sign in attempts.</string>
     <string name="every_day">Every day</string>
     <string name="experimental_validate">Validate</string>
-    <string name="experimental_validate_fail">Login failed.</string>
+    <string name="experimental_validate_fail">Sign-in failed</string>
     <string name="experimental_validate_password">Password</string>
-    <string name="experimental_validate_progress">Logging in…</string>
+    <string name="experimental_validate_progress">Signing in…</string>
     <string name="experimental_validate_thanks">Thank you!</string>
     <string name="experimental_validate_username">Username</string>
     <string name="experimental_validate_warning">Thank you for helping to make MIUI better!</string>
     <string name="find_device_check_sim">Checking SIM…</string>
-    <string name="find_device_sim_change_instructions">"Your device has been locked
-Please insert SIM card or enter your Xiaomi account password."</string>
-    <string name="find_device_sim_change_instructions_no_network">"Your device has been locked
-Please insert SIM card."</string>
-    <string name="find_device_turn_off_flight_mode">Please turn off airplane mode.</string>
-    <string name="find_device_turn_off_flight_mode_instructions">"Your device has been locked
-Please turn off airplane mode."</string>
+    <string name="find_device_sim_change_instructions">Your device has been lockednsert SIM card or enter your Xiaomi Account password.</string>
+    <string name="find_device_sim_change_instructions_no_network">"Your device has been locked.
+To unlock it, insert your SIM card."</string>
+    <string name="find_device_turn_off_flight_mode">Turn off airplane mode.</string>
+    <string name="find_device_turn_off_flight_mode_instructions">"Your device has been locked.
+To unlock it, turn off airplane mode."</string>
     <string name="firewall_setting">Blocklist</string>
     <string name="first_back_long_press_message">"Long pressing Back will kill the current process and its background services. 
 
 To enable this function, go to Settings > System > Buttons"</string>
     <string name="fm_record_smaple_prefix_miui">FM recording</string>
     <string name="fools_day">愚人节</string>
-    <string name="force_exit_message">Closed \"%1$s</string>
+    <string name="force_exit_message">Closed \"%1$s\"</string>
     <string name="format_time_in_12_hours">hh:mma</string>
-    <string name="global_action_privacy_mode_dialog_message">Calls, notes, pictures, messages, and launcher settings will be hidden from the user. You can set an additional password to lock Guest mode.</string>
+    <string name="global_action_privacy_mode_dialog_message">Calls, notes, pictures, messages, and launcher settings will be hidden from the user.</string>
     <string name="global_action_toggle_privacy_mode">Guest mode</string>
     <string name="grain_buds">小满</string>
     <string name="grain_in_ear">芒种</string>
@@ -375,11 +374,11 @@ To enable this function, go to Settings > System > Buttons"</string>
     <string name="lunar_yi">一</string>
     <string name="lunar_yue">月</string>
     <string name="lunar_zheng">正</string>
-    <string name="memory_clear_nothing_result">Memory usage is already optimized.</string>
+    <string name="memory_clear_nothing_result">Memory usage is already optimized</string>
     <string name="memory_clear_result">"Cache cleared: %1$s 
 Memory available: %2$s"</string>
     <string name="miui_copyright_title">Copyright</string>
-    <string name="miui_mibi_license_title">MiCredit User agreement</string>
+    <string name="miui_mibi_license_title">Mi Credit User agreement</string>
     <string name="miui_privacy_policy_title">Privacy policy</string>
     <string name="miui_user_agreement_title">User agreement</string>
     <string name="miui_user_manual_title">User guide</string>
@@ -400,7 +399,7 @@ Memory available: %2$s"</string>
     <string name="national_father_day">國父誕辰</string>
     <string name="never">Never</string>
     <string name="new_years_day">元旦</string>
-    <string name="no_sim">No SIM card detected.</string>
+    <string name="no_sim">No SIM card detected</string>
     <string name="partys_day">建党节</string>
     <string name="passwordIncorrect">@android:string/silent_mode</string>
     <string name="payphone">Payphone</string>
@@ -419,25 +418,25 @@ Memory available: %2$s"</string>
     <string name="reboot_confirm">Phone will be restarted</string>
     <string name="reboot_progress">Restarting…</string>
     <string name="reverse_all">Clear all</string>
-    <string name="safetylegal_activity_unreachable">"Can't connect to network. To view this information now, go to %s."</string>
+    <string name="safetylegal_activity_unreachable">"Can't connect to network. You can view this information online at %s."</string>
     <string name="deprecated_46" />
     <string name="deprecated_47" />
     <string name="screen_button_notification_text">To re-enable them, press the Home and Power buttons simultaneously.</string>
     <string name="screen_button_notification_title">Navigation buttons disabled</string>
     <string name="screen_on_proximity_sensor_hint">To disable this feature, press the Back and Volume up buttons simultaneously.</string>
-    <string name="screen_on_proximity_sensor_summary">"Don't cover the top of the screen."</string>
+    <string name="screen_on_proximity_sensor_summary">"Don't cover the top of the screen"</string>
     <string name="screen_on_proximity_sensor_title">Prevent pocket dials</string>
     <string name="deprecated_48" />
-    <string name="sd_not_available">No SD card detected.</string>
-    <string name="sd_not_available_low_internal_storage">"SD card unavailable: you're running out of internal storage."</string>
-    <string name="sd_not_available_saved_to_internal_storage">Saved to internal storage.</string>
-    <string name="sd_not_available_use_internal_storage">SD card unavailable: saved to internal storage.</string>
+    <string name="sd_not_available">No SD card detected</string>
+    <string name="sd_not_available_low_internal_storage">SD card unavailable. Saved to internal storage.</string>
+    <string name="sd_not_available_saved_to_internal_storage">Saved to internal storage</string>
+    <string name="sd_not_available_use_internal_storage">SD card unavailable. Saved to internal storage.</string>
     <string name="select">Select</string>
     <string name="select_all">Select all</string>
-    <string name="send_sms_for_sync_notice">An activation text will be sent automatically (normal rates apply).</string>
-    <string name="send_sms_for_sync_title">Sync service not activated</string>
+    <string name="send_sms_for_sync_notice">A text will be sent to activate it. This may incur charges from your carrier.</string>
+    <string name="send_sms_for_sync_title">"Sync hasn't been activated"</string>
     <string name="sim_account_name">SIM</string>
-    <string name="sim_changed_reactivate_notice">Current SIM is deactivated. An activation text will be sent automatically (normal rates apply).</string>
+    <string name="sim_changed_reactivate_notice">"The SIM card you're using is deactivated. A text will be sent to activate it. This may incur charges from your carrier."</string>
     <string name="slight_cold">小寒</string>
     <string name="slight_heat">小暑</string>
     <string name="solar_calendar">公历</string>
@@ -504,11 +503,11 @@ Memory available: %2$s"</string>
     <string name="the_spring_festival">春节</string>
     <string name="unknown">Unknown number</string>
     <string name="unknown_caller">Unknown caller</string>
-    <string name="user_agreement1">Be certain to read the applicable terms carefully before you install the software or use the product.</string>
-    <string name="user_agreement2">" User agreement"</string>
+    <string name="user_agreement1">"By touching OK, you're agreeing to the terms and conditions outlined in Xiaomi's"</string>
+    <string name="user_agreement2">" User Agreement"</string>
     <string name="user_agreement3">" and "</string>
-    <string name="user_agreement4">Privacy policy</string>
-    <string name="user_agreement5">By touching OK, you agree to the terms outlined in these documents.</string>
+    <string name="user_agreement4">Privacy Policy.</string>
+    <string name="user_agreement5" />
     <string name="v5_date_picker_label_day" />
     <string name="v5_date_picker_label_month" />
     <string name="v5_date_picker_label_year" />
@@ -579,23 +578,23 @@ Memory available: %2$s"</string>
     <string name="provider_114">Provided by 114号码百事通</string>
     <string name="device_xiaomi">Xiaomi</string>
     <string name="miui_device_name">Android</string>
-    <string name="sim_unavailable">SIM card unavailable.</string>
-    <string name="sim_locked">SIM card is locked.</string>
-    <string name="sim_not_ready">SIM card in use. Try again later.</string>
-    <string name="sim_in_airplane_mode">Please disable airplane mode.</string>
+    <string name="sim_unavailable">SIM card unavailable</string>
+    <string name="sim_locked">SIM card is locked</string>
+    <string name="sim_not_ready">SIM card is in use. Try again later.</string>
+    <string name="sim_in_airplane_mode">Turn off airplane mode</string>
     <string name="android_PinMmi">@android:string/global_action_power_off</string>
-    <string name="sim_changed_reactivate_int_notice">Current SIM is deactivated. An activation text will be sent automatically (international rates apply).</string>
+    <string name="sim_changed_reactivate_int_notice">"The SIM card you're using is deactivated. A text will be sent to activate it. This may incur charges from your carrier."</string>
     <string name="days">%d days</string>
     <string name="hours">%d hours</string>
     <string name="minutes">%d minutes</string>
     <string name="shutdown_confirm_title">Your phone will shut down.</string>
     <string name="reboot_confirm_title">Your phone will restart.</string>
-    <string name="err_resource_leak">Unfortunately, %1$s has stopped.</string>
-    <string name="app_notificaiton_on_statusBar_and_notificationBar">Status bar, notification bar</string>
-    <string name="app_no_notification">nothing</string>
-    <string name="app_notificaiton_on_notificationBar">Notification bar</string>
+    <string name="err_resource_leak">Unfortunately, %1$s has stopped</string>
+    <string name="app_notificaiton_on_statusBar_and_notificationBar">Status bar, Notification shade</string>
+    <string name="app_no_notification">Hide notifications</string>
+    <string name="app_notificaiton_on_notificationBar">Notification shade</string>
     <string name="android_safe_media_volume_warning">@android:string/no</string>
-    <string name="device_hongmi">Hongmi phone</string>
+    <string name="device_hongmi">Redmi</string>
     <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"You have incorrectly entered your password %d times. After %d more unsuccessful attempts, you will be asked to unlock your phone using your account signin.
 
  Try again in %d seconds."</string>
@@ -618,16 +617,16 @@ Memory available: %2$s"</string>
     <string name="text_copied">Text copied</string>
     <string name="text_cut">Text cut</string>
     <string name="toast_lockscreen_glogin_empty_password">Password is required.</string>
-    <string name="yellow_page_unable_send_sms">Unable to send text message.</string>
-    <string name="yellow_page_module_sms_sent">Text message sent.</string>
-    <string name="yellow_page_sms_send_failed">Failed to send text message.</string>
+    <string name="yellow_page_unable_send_sms">Unable to send text message</string>
+    <string name="yellow_page_module_sms_sent">Text message sent</string>
+    <string name="yellow_page_sms_send_failed">Failed to send text message</string>
     <string name="yellow_page_sms_sending">Sending…</string>
-    <string name="yellow_page_sms_disabled_in_privacy_mode">"Can't send message in Guest mode."</string>
+    <string name="yellow_page_sms_disabled_in_privacy_mode">"Can't send message in Guest mode"</string>
     <string name="android_grant_permissions_header_text">@android:string/accessibility_binding_label</string>
     <string name="android_deny">@android:string/chooser_wallpaper</string>
     <string name="android_allow">@android:string/wallpaper_binding_label</string>
-    <string name="grant_permissions_apps">Access request applications</string>
-    <string name="grant_permissions_account">Access request account</string>
+    <string name="grant_permissions_apps">Access apps request</string>
+    <string name="grant_permissions_account">Access account request</string>
     <string name="hksar_establishment_day">行政區成立</string>
     <string name="the_first_weekday_after_christmas">聖誕節後第一個周日</string>
     <string name="good_friday">耶穌受難節</string>
