@@ -12,6 +12,7 @@
     <string name="menu_item_about_label">About</string>
     <string name="about_title">About</string>
     <string name="about_app_name">Video Player</string>
+    <string name="about_version">1.0.1</string>
     <string name="menu_wh_item_auto_select_label">Auto select</string>
     <string name="menu_wh_item_full_screen_label">Full screen playback</string>
     <string name="menu_wh_item_adapt_width_label">Fit width</string>
@@ -34,6 +35,7 @@
     <string name="buffering">Buffering…</string>
     <string name="airkan_video_playing_in">Video is</string>
     <string name="airkan_video_playing">playing</string>
+    <string name="airkan_tips">Click here to cast the video on the box or TV</string>
     <string name="menu_item_orientation_auto_sensor_action">Enable auto-rotate</string>
     <string name="menu_item_orientation_fixed_by_videosize_action">Disable auto-rotate</string>
     <string name="menu_item_screen_shot">Capture</string>

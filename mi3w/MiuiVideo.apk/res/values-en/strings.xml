@@ -11,6 +11,7 @@
     <string name="menu_item_about_label">About</string>
     <string name="about_title">About</string>
     <string name="about_app_name">Video Player</string>
+    <string name="about_version">1.0.1</string>
     <string name="menu_wh_item_auto_select_label">Auto select</string>
     <string name="menu_wh_item_full_screen_label">Full screen playback</string>
     <string name="menu_wh_item_adapt_width_label">Fit width</string>
@@ -33,6 +34,7 @@
     <string name="buffering">Buffering…</string>
     <string name="airkan_video_playing_in">Video is</string>
     <string name="airkan_video_playing">playing</string>
+    <string name="airkan_tips">Click here to cast the video on the box or TV</string>
     <string name="menu_item_orientation_auto_sensor_action">Enable auto-rotate</string>
     <string name="menu_item_orientation_fixed_by_videosize_action">Disable auto-rotate</string>
     <string name="menu_item_screen_shot">Capture</string>
@@ -58,5 +60,7 @@
     <string name="nowifi_alert_dialog_exit">Exit</string>
     <string name="menu_item_enable_audio_enhance">Enable audio enhancer</string>
     <string name="menu_item_disable_audio_enhance">Disable audio enhancer</string>
+    <string name="menu_item_enable_3d_mode">Enable 3D</string>
+    <string name="menu_item_disable_3d_mode">Disable 3D</string>
     <string name="toast_message_set_misound">Please set MI Audio...</string>
 </resources>

@@ -362,7 +362,7 @@ album from anywhere.
     <string name="confirm_download_video_message">You need to finish downloading this video before you can watch it. Download will resume when WLAN connection is available.</string>
     <string name="image_download_item_title">Download image(%s)</string>
     <string name="item_not_sync">This item has not been synchronized to the cloud and can not be downloaded</string>
-    <string name="cloud_album_more_settings">Sync with MiCloud</string>
+    <string name="cloud_album_more_settings">Sync with Mi Cloud</string>
     <string name="browse_category">Display</string>
     <string name="photo_page_save_image">Save</string>
     <string name="photo_page_save_uri_image_ok">Photo saved to Camera photos.</string>
