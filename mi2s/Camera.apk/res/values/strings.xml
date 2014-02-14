@@ -390,6 +390,9 @@ Step out of view for a moment"</string>
     <string name="pref_camera_volumekey_function_entry_zooming">Zoom</string>
     <string name="pref_camera_volumekey_function_title">Volume buttons</string>
     <string name="pref_camera_volumekey_function_default">zoom</string>
+    <string name="pref_camera_volumekey_function_entryvalue_volume">volume</string>
+    <string name="pref_camera_volumekey_function_entryvalue_shutter">shutter</string>
+    <string name="pref_camera_volumekey_function_entryvalue_zoom">zoom</string>
     <string name="pref_camera_long_pressing_burst_shooting_title">Long press shutter button</string>
     <string name="pref_camera_long_pressing_burst_shooting_entry_off">Focus</string>
     <string name="pref_camera_long_pressing_burst_shooting_entry_on">Burst shoot</string>

@@ -497,6 +497,8 @@ Be careful, granting root permission to third-party apps may destabilize your de
     <string name="title_app_update_yes">All apps up to date</string>
     <string name="title_data_flow_no">Data usage monitor off</string>
     <string name="title_data_flow_yes">Data usage monitor on</string>
+    <string name="title_show_notification_yes">Show in notification shade on</string>
+    <string name="title_show_notification_no">Show in notification shade off</string>
     <string name="button_text_fix">Fix</string>
     <string name="button_text_view">View</string>
     <string name="button_text_security">Security</string>
@@ -530,7 +532,7 @@ Be careful, granting root permission to third-party apps may destabilize your de
     <string name="virus_scan">Virus scan</string>
     <string name="network_assistant">Data usage</string>
     <string name="anti_spam">Blocklist</string>
-    <string name="permission_mgr">Permissions</string>
+    <string name="permission_mgr">Permission</string>
     <string name="cleaner">Cleaner</string>
     <string name="power_mgr">Power</string>
     <string name="quick_cleanup">Clean up</string>
@@ -726,9 +728,9 @@ Be careful, granting root permission to third-party apps may destabilize your de
     <string name="quick_optimize">Optimize</string>
     <string name="restore_default_settings">Restore default settings</string>
     <string name="quick_clean">Clean up</string>
-    <string name="realtime_protection">Protection</string>
+    <string name="realtime_protection">System</string>
     <string name="free_ram">Memory</string>
-    <string name="cache_garbage">Cache files</string>
+    <string name="cache_garbage">Cache</string>
     <string name="optimize_done">"Ok, you're all set!"</string>
     <string name="work_done">Done</string>
     <string name="last_checked_date">Last scan was more than 30 days ago</string>
@@ -737,9 +739,9 @@ Be careful, granting root permission to third-party apps may destabilize your de
     <string name="just_checked">Everything looks good!</string>
     <string name="need_check">Some items can be optimized…</string>
     <string name="scan_done">Scan complete</string>
-    <string name="realtime_protection_title">Protection</string>
-    <string name="process_manager_actionbar_title">Memory usage</string>
-    <string name="cache_manager_actionbar_title">Cache files</string>
+    <string name="realtime_protection_title">System</string>
+    <string name="process_manager_actionbar_title">Memory</string>
+    <string name="cache_manager_actionbar_title">Cache</string>
     <string name="enable_adb_debug_summary">When connected via USB, use the ADB command</string>
     <string name="disable_adb_debug_summary">Disable USB debugging</string>
     <string name="enable_adb_debug_title">Enable USB debugging</string>
@@ -857,6 +859,7 @@ Be careful, granting root permission to third-party apps may destabilize your de
     <string name="virus_scan_last_scan_date">Most recent scan was %d days ago</string>
     <string name="virus_scan_unknown_virus_name">Unknown</string>
     <string name="virus_scan_is_cloud_scanning">Cloud scanning…</string>
+    <string name="virus_scan_clean_dialog_message">Cleaning...</string>
     <string name="additional_system_update" />
     <string name="additional_system_update_menu" />
     <string name="input_method_selector_show_automatically_value">0</string>

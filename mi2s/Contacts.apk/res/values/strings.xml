@@ -1140,4 +1140,8 @@ Choose one of the following options:"</string>
     <string name="yellowpage_navigation_search_result_unknown_error">Unknown error</string>
     <string name="yellowpage_navigation_menu_order">My order</string>
     <string name="yellowpage_navigation_send_to_desktop_succeeded">Added to Home screen</string>
+    <string name="yellowpage_navigation_network_location_not_enabled_title">Enable network location service</string>
+    <string name="yellowpage_navigation_network_location_not_enabled_summary">Directory provides services according to your city and enabling WLAN &amp; mobile network location service can improve the quality of services.</string>
+    <string name="yellowpage_navigation_network_location_enable">Enable now</string>
+    <string name="yellowpage_navigation_network_location_enable_later">Enable later</string>
 </resources>
