@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Местоположение сети</string>
+    <string name="location_warning_title">Сбор геоданных</string>
+    <string name="location_warning_message">Разрешить Google собирать анонимные геоданные. Некоторые из них могут быть сохранены на вашем устройстве. Сбор сведений выполняется, даже если не запущено ни одно приложение.</string>
+    <string name="agree">Разрешить</string>
+    <string name="disagree">Не сейчас</string>
+</resources>

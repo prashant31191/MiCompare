@@ -461,6 +461,7 @@ album from anywhere.
     <string name="error_album_not_exist">"Album doesn't exist"</string>
     <string name="error_invalid_link">Invalid link</string>
     <string name="error_socket_timeout">Network connection timed out</string>
+    <string name="error_share_with_creator">You are a member of this album already</string>
     <string name="error_cloud_not_active">Cloud album not in use</string>
     <string name="cloud_camera_display_name">Camera photos</string>
     <string name="camera_folder_display_name">Camera photos</string>

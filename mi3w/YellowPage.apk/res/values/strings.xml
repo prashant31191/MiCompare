@@ -2,6 +2,7 @@
 <resources>
     <string name="app_label">Directory</string>
     <string name="phone_info_divider">" ｜ "</string>
+    <string name="call">Call</string>
     <string name="check_network">Network settings</string>
     <string name="try_again">Try again</string>
     <string name="network_unavaliable">"Couldn't connect to network"</string>
