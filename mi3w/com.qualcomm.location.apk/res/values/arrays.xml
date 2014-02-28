@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="sglte_device_socId">
-        <item>126</item>
-        <item>218</item>
-        <item>224</item>
-    </string-array>
-</resources>

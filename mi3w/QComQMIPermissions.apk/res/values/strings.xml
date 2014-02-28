@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="hello">Hello World!</string>
-    <string name="app_name">QChat_QMI</string>
-    <string name="label">QCOM_QMI</string>
-    <string name="desc">ACCESS_QCOM_QMI</string>
-</resources>
