@@ -10,6 +10,10 @@
     <string name="chooser_wallpaper">Choose wallpaper from</string>
     <string name="activity_not_found">"App isn't installed on your phone"</string>
     <string name="cancel_action">Cancel</string>
+    <string name="apply_as_lock_wallpaper">Apply</string>
+    <string name="apply_as_lock_wallpaper_message">Apply this wallpaper to your lock screen too?</string>
+    <string name="lock_screen_failed_message">Failed to apply</string>
+    <string name="lock_screen_success_message">Applied</string>
     <string name="menu_item_add_item">Place on Home screen</string>
     <string name="group_shortcuts">Shortcuts</string>
     <string name="group_folder">New folder</string>
