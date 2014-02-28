@@ -52,7 +52,7 @@
     <string name="dialog_content_storage_full">"Recording stopped because there's not enough space left on your phone's internal memory."</string>
     <string name="status_bar_anti_disturb">Phone muted</string>
     <string name="status_bar_recording">Recording…</string>
-    <string name="status_bar_back">To go back, touch this bar</string>
+    <string name="status_bar_back" />
     <string name="status_bar_recording_pause">Recorder paused</string>
     <string name="record_saving">Saving…</string>
     <string name="record_loading">Loading…</string>

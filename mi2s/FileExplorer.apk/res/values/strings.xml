@@ -47,13 +47,12 @@
     <string name="operation_rename_message">Name folder</string>
     <string name="operation_create_folder_message">Name folder</string>
     <string name="operation_delete_confirm_message">Delete</string>
-    <string name="operation_delete_confirm_message_folder">"All folder contents will also be deleted.
+    <string name="operation_delete_confirm_message_folder">"All folder contents will be deleted.
 "</string>
     <string name="delete_folder">Delete this folder?</string>
     <string name="delete_folders">Delete %1$d?</string>
     <string name="delete_file">Delete this file?</string>
     <string name="delete_files">Delete %1$d files?</string>
-    <string name="delete_files_and_folders">Delete %1$d file(s) and %2$d folder(s)?</string>
     <string name="new_folder_name">Unnamed folder</string>
     <string name="sd_card_size">SD card: %1$s</string>
     <string name="sd_card_available">Available: %1$s</string>
@@ -114,8 +113,6 @@
     <string name="directory_info_divider">"  |  "</string>
     <string name="no_enough_storage_title">Not enough space</string>
     <string name="no_enough_storage_indication">"Device's storage space is full."</string>
-    <string name="ui_bar_txt_download_progress">%1$d file(s) left to download</string>
-    <string name="ui_bar_txt_upload_progress">%1$d file(s) left to upload</string>
     <string name="ui_main_menu_option_task_manage">Manage transfers</string>
     <string name="kuaipan_label">Kuaipan</string>
     <string name="create_kuaipan_shortcut_pref">Place on Home screen</string>

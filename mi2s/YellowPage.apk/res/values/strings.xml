@@ -9,6 +9,7 @@
     <string name="service_unavailiable">Service unavailable</string>
     <string name="data_error">An error occurred</string>
     <string name="locating_fail">Failed to locate, please check location service or try again</string>
+    <string name="no_more_result">No more results</string>
     <string name="yellow_page_detail_title">About</string>
     <string name="yellow_page_call_log_title">Call log</string>
     <string name="yellow_page_website">Official website</string>
