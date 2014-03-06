@@ -321,6 +321,7 @@
     <string name="vip_rebuy">Renew</string>
     <string name="data_usage_warning">Data usage</string>
     <string name="data_usage_warning_summary">Using your mobile data connection to stream higher quality music may increase your data usage costs.</string>
+    <string name="source_from">Source from : %1$s</string>
     <string name="albumsongseparator">"
 "</string>
     <string name="notification_artist_album">"%2$s

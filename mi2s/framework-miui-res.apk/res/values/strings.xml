@@ -63,7 +63,7 @@
     <string name="autumn_equinox">秋分</string>
     <string name="callNoAnswerTimeFormat">Ring %s times</string>
     <string name="call_record_or">or</string>
-    <string name="call_record_sample_prefix_miui">Call recording</string>
+    <string name="call_record_sample_prefix_miui">Call</string>
     <string name="caller_info_name_delimiter">Or</string>
     <string name="check_phone_error_title">"Sync hasn't been activated"</string>
     <string name="check_phone_io_error">Network error</string>

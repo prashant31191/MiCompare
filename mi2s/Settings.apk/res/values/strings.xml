@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="versionCode">2</string>
-    <string name="versionName">1.0.140114</string>
+    <string name="versionCode">3</string>
+    <string name="versionName">1.0.140225</string>
     <string name="auto_startup_application_manage">Auto-start</string>
     <string name="auto_startup_count">%d apps are currently allowed to auto-start</string>
     <string name="man_add_application">Add auto-start apps</string>
@@ -316,6 +316,9 @@ Disable floating windows?"</string>
 Your device is set to switch to this configuration when battery recovers. You need to change your battery settings before you can delete this configuration."</string>
     <string name="power_dialog_delete_dialog_cannot_delete_on_out_time">Can’t delete: Your device is set to switch to this configuration at a designated time. You need to change your battery settings before you can delete this configuration.</string>
     <string name="power_mode_chooser_button_text">apply</string>
+    <string name="menu_item_force_stop">Force stop</string>
+    <string name="menu_item_uninstall">Uninstall</string>
+    <string name="menu_item_app_details">Details</string>
     <string name="application_info_label">App info</string>
     <string name="version_text">version %1$s</string>
     <string name="security_relative">Security related</string>
@@ -568,6 +571,9 @@ Be careful, granting root permission to third-party apps may destabilize your de
     <string name="preference_key_create_permanent_notification">key_create_permanent_notification</string>
     <string name="preference_key_garbage_cleanup_auto_check_time">key_garbage_cleanup_auto_check_time</string>
     <string name="preference_key_garbage_cleanup_auto_check_size">key_garbage_cleanup_auto_check_size</string>
+    <string name="category_key_power_usage_details">key_power_usage_details</string>
+    <string name="category_key_power_usage_packages">key_power_usage_packages</string>
+    <string name="preference_key_power_usage_details_title">key_power_usage_details_title</string>
     <string name="app_name">Security</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>

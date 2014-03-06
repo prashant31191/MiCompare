@@ -49,8 +49,7 @@
     <string name="loading_video_netplay_label_v5">Loading…</string>
     <string name="buffering_video_netplay_label_v5">Buffering…</string>
     <string name="to_be_play_label_v5">"Up next: "</string>
-    <string name="episode_prefix">"episode "</string>
-    <string name="episode_suffix" />
+    <string name="episode_suffix">"Ep. %d "</string>
     <string name="about_version_label">Version code</string>
     <string name="about_developer_label">Developer</string>
     <string name="about_developer_name">XiaoMi Inc.</string>
@@ -63,4 +62,11 @@
     <string name="menu_item_enable_3d_mode">Enable 3D</string>
     <string name="menu_item_disable_3d_mode">Disable 3D</string>
     <string name="toast_message_set_misound">Please set MI Audio...</string>
+    <string name="vp_select_ci">Select</string>
+    <string name="vp_offline">Offline</string>
+    <string name="vp_next_ci">Next</string>
+    <string name="vp_standard_definition">SD</string>
+    <string name="vp_high_definition">HD</string>
+    <string name="vp_super_definition">Super</string>
+    <string name="vp_full_high_definition">1080P</string>
 </resources>
