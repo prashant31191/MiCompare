@@ -512,7 +512,7 @@ Memory available: %2$s"</string>
     <string name="v5_date_picker_label_month" />
     <string name="v5_date_picker_label_year" />
     <string name="v5_deselect_all">Deselect all</string>
-    <string name="v5_edit_mode_title_empty">Select items</string>
+    <string name="v5_edit_mode_title_empty">0 selected</string>
     <string name="v5_icon_menu_bar_more_item_label">More</string>
     <string name="v5_select_all">Select all</string>
     <string name="v5_time_picker_label_hour">H</string>
@@ -633,6 +633,7 @@ Memory available: %2$s"</string>
     <string name="day_following_good_friday">耶穌受難節翌日</string>
     <string name="easter">復活節</string>
     <string name="v5_date_time_picker_dialog_title">Set reminder time</string>
+    <string name="open_wifi_settings">Open network connection</string>
     <string name="lockscreen_emergency_call">Emergency call</string>
     <string name="lockscreen_forgot_pattern_button_text">Forgot</string>
     <string name="lockscreen_transport_prev_description">Previous</string>
@@ -664,6 +665,5 @@ Memory available: %2$s"</string>
     <string name="pin_operation_failed">PIN operation failed.</string>
     <string name="return_to_me_message">If lost please return to</string>
     <string name="unlock_string">OK</string>
-    <string name="open_wifi_settings">Open network connection</string>
     <string name="lock_screen_date">MM/dd EEEE</string>
 </resources>

@@ -65,8 +65,9 @@
     <string name="count_bu">Prt. %d</string>
     <string name="count_ji_quan">All %d Eps</string>
     <string name="count_ge">%d items</string>
-    <string name="gong_count_xiang">%d items</string>
+    <string name="gong_count_xiang">%d Videos</string>
     <string name="gong_count_dlna">%d DLNA</string>
+    <string name="visit_postfix">| visited recently</string>
     <string name="jni_res_connect_error">"Couldn't connect to network"</string>
     <string name="jni_res_timout">Network connection timed out</string>
     <string name="jni_res_session_timout">User session timed out</string>

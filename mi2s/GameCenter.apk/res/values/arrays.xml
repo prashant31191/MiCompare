@@ -660,6 +660,13 @@
         <item>Friday</item>
         <item>Saturday</item>
     </string-array>
+    <string-array name="average_score_star">
+        <item>1 star</item>
+        <item>2 stars</item>
+        <item>3 stars</item>
+        <item>4 stars</item>
+        <item>5 stars</item>
+    </string-array>
     <string-array name="permission_id">
         <item>1</item>
         <item>2</item>

@@ -91,13 +91,13 @@ Please check your local date and try again."</string>
     <string name="paytool_msp_not_installed">You have not installed %1$s mobile security plugin, install it now?</string>
     <string name="progress_paytool_creating">Generating %1$s order…</string>
     <string name="progress_paytool_installing">Installing %1$s mobile security plugin…</string>
+    <string name="prepaid_grid_carrier_hint">Select carrier</string>
+    <string name="prepaid_grid_denomination_hint">Select amount</string>
     <string name="prepaid_picker_hint_1_1">1.</string>
     <string name="prepaid_picker_hint_1_2">Only supports one-time charge;</string>
     <string name="prepaid_picker_hint_2_1">2.</string>
     <string name="prepaid_picker_hint_2_2_a">"Selected nominal value must be consistent with that of the prepaid card. Choosing another value will void the card. This action can't be undone."</string>
     <string name="prepaid_picker_hint_2_2_b">If the nominal value of the prepaid card is not &lt;font color=red>￥%1$s&lt;/font>, the card will be void. Xiaomi is not responsible for any monetary loss that occurs as a result of user error.</string>
-    <string name="prepaid_picker_title_default">Select amount</string>
-    <string name="prepaid_picker_title_selected">amount</string>
     <string name="prepaid_number_edit_hint">Number</string>
     <string name="prepaid_password_edit_hint">Password</string>
     <string name="prepaid_edit_limit">digits</string>
@@ -116,8 +116,6 @@ Please check your local date and try again."</string>
     <string name="msg_picker_hint_1_2">Topping up via text maybe more expensive: &lt;font color=red>￥%1$d = %2$d MiCredit&lt;/font></string>
     <string name="msg_picker_hint_2_1">2.</string>
     <string name="msg_picker_hint_2_2">Carriers charge a ￥%1$s service fee per top-up</string>
-    <string name="msg_picker_hint_3_1">3.</string>
-    <string name="msg_picker_hint_3_2">Maximum monthly top-up: ￥%1$s</string>
     <string name="msg_denomination_type">MiCredit</string>
     <string name="msg_error">Top-up failed</string>
     <string name="progress_msg_creating">Generating top-up order…</string>
@@ -202,6 +200,8 @@ We will check again within two working days."</string>
     <string name="giftcard_push_notification_sub_title">%1$s: %2$s MiCredit giveaway.</string>
     <string name="recharge_push_notification_prime_title">%1$d added %2$s MiCredits to your account</string>
     <string name="recharge_push_notification_sub_title">Top-up complete.</string>
+    <string name="giftcard_expire_notification_prime_title">Yikes! Your promotional code is about to expire …</string>
+    <string name="giftcard_expire_notification_sub_title">Your Mi Credit Gift Card expires on %1$s</string>
     <string name="title_mili_center">MiCredits</string>
     <string name="title_recharge_record">Top-up records</string>
     <string name="title_pay_record">Payment records</string>
@@ -216,9 +216,10 @@ We will check again within two working days."</string>
     <string name="progress_downloading">Loading…</string>
     <string name="btn_net_connection_retry">Retry</string>
     <string name="pay_record_typeall">All</string>
-    <string name="mibi_license_title">User agreement</string>
-    <string name="mibi_license_message">Touch OK if you agree to the terms and conditions described in the %1$s.</string>
+    <string name="mibi_license_title">Terms and conditions</string>
+    <string name="mibi_license_message">"You're about to use Mi Credit, which is a service provided by Xiaomi Inc. Before you can use this service, you must agree to the Terms of Service stated in %1$s. Touch OK if you agree to the terms and conditions described in the %1$s."</string>
     <string name="mibi_license_message_span">MiCredit User Agreement</string>
+    <string name="btn_agree">Agree</string>
     <string name="security_setting">Security settings</string>
     <string name="lockscreen_forgot_pattern_button_text"><u>Forgot pattern password</u></string>
     <string name="lockpattern_recording_intro_header">Draw an unlock pattern:</string>

@@ -4,7 +4,7 @@
     <string name="action_settings">Settings</string>
     <string name="action_gamegift">Player level</string>
     <string name="cancel">Cancel</string>
-    <string name="confirm">confirm</string>
+    <string name="confirm">Confirm</string>
     <string name="feedback_title">Online support</string>
     <string name="special_comm">VIP support</string>
     <string name="track_feedback_status">Issue status</string>
@@ -215,6 +215,7 @@
     <string name="toast_name_used">the name was already used</string>
     <string name="user_info_birthday_format">MM-dd</string>
     <string name="already_bottom">"You're at the bottom of the page!"</string>
+    <string name="copy">Copy</string>
     <string name="permission_risky_money">Not for free</string>
     <string name="permission_risky_privacy">Privacy related</string>
     <string name="permission_risky_security">Security related</string>
@@ -569,6 +570,7 @@
     <string name="welcome_title">Welcome!</string>
     <string name="welcome_subtitle">Try these games!</string>
     <string name="game_detail_tab">Details</string>
+    <string name="game_comments_tab">Comment</string>
     <string name="gamedetail_screenshot_video">%1$svideo</string>
     <string name="gamedetail_screenshot_img">%1$s Screenshots</string>
     <string name="account_all_game">All games</string>
@@ -630,4 +632,10 @@
     <string name="updating_starts">Game center updating starts.</string>
     <string name="background_install_failed">Background installation failed.</string>
     <string name="local_games_empty_txt">Your installed games are shown here.</string>
+    <string name="giveup_download_dialog_title">Delete download</string>
+    <string name="giveup_download_dialog_content">Confirm delete the download？</string>
+    <string name="average_score">Ratings</string>
+    <string name="average_score_person">%d gamers</string>
+    <string name="average_score_no_comment">No gamer give rating</string>
+    <string name="app_detail_tab_rating">Rating</string>
 </resources>
