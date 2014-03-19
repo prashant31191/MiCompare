@@ -226,13 +226,6 @@
     <string name="widget_select_style">Select a style</string>
     <string name="widget_events">The next events</string>
     <string name="widget_no_events">Next, no agenda</string>
-    <string name="gou_piao_website_start_time">可购%s火车票（网络、电话订票）</string>
-    <string name="gou_piao_window_start_time">车站、代售点可购%s火车票</string>
-    <string name="gou_piao_event_title">提醒我抢购%s的火车票</string>
-    <string name="gou_piao_item1">在这一天提醒我抢票</string>
-    <string name="gou_piao_item2">拨打95105105电话订票</string>
-    <string name="gou_piao_item3">使用12306应用订票</string>
-    <string name="show_gou_piao">显示春运购票日历</string>
     <string name="month_medium_january">Jan</string>
     <string name="month_medium_february">Feb</string>
     <string name="month_medium_march">Mar</string>

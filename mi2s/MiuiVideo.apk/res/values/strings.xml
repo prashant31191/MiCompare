@@ -111,6 +111,7 @@
     <string name="cancel_waitfornewset">Stop following</string>
     <string name="waitfornewset_tip_content">You will be notified when a new episode or additional content becomes available.</string>
     <string name="success_add_myfavorite">Starred</string>
+    <string name="success_add_waitfornewset">follow success</string>
     <string name="success_cancel_myfavorite">Unstarred</string>
     <string name="success_cancel_waitfornewset">Stopped following</string>
     <string name="success_to_cancel_myfavorite">Canceled</string>
@@ -202,6 +203,8 @@
     <string name="continue_to_play_nextset_summary">"When the episode that you're watching has finished the next one will begin automatically"</string>
     <string name="clear_cache_summary">Clear cached images from Video browser</string>
     <string name="clear_offline_summary">Clear cached Videos</string>
+    <string name="receive_ad_notify">Message notification/push function</string>
+    <string name="receive_ad_notify_summary">After the opening, to receive the latest and popular video notice</string>
     <string name="load_file_fail">Local file destroyed</string>
     <string name="load_offline_file_fail">Offline file destroyed, please recache</string>
     <string name="load_failed_to_try">Failed to load</string>

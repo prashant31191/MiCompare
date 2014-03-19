@@ -68,6 +68,9 @@
     <string name="you_can_say_so">您可以这样说:</string>
     <string name="model_name">张若涵</string>
     <string name="china">中国</string>
+    <string name="security_center">安全中心</string>
+    <string name="yellow_page">生活黄页</string>
+    <string name="password_guard">密码保护</string>
     <string name="text_title_intent">测试Intent调用</string>
     <string name="recognition_mess">语音识别示例</string>
     <string name="recognition_failure">"未找到相应信息
@@ -345,7 +348,6 @@ the content you're looking for is not currently available in your region."</stri
     <string name="resource_expand_full_text">Expand</string>
     <string name="resource_account_login">Sign in</string>
     <string name="resource_account_switch">Switch</string>
-    <string name="resource_account_current">Account: %1$s</string>
     <string name="resource_account_login_title">Sign in</string>
     <string name="resource_account_fail_to_add">Failed to add account</string>
     <string name="resource_account_abnormal_state">Account error. Try again later.</string>

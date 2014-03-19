@@ -122,4 +122,5 @@ The air quality index in %1$s is %2$s, %3$s. %4$s %5$s."</string>
     <string name="act_weather_cycle_link_china">WeatherChina</string>
     <string name="menu_add">Add location</string>
     <string name="menu_more">Details</string>
+    <string name="act_aqi_src_port">"%1$s%2$s  %3$s"</string>
 </resources>
