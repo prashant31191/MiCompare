@@ -393,7 +393,7 @@
     <string name="readmode_refresh">Refresh</string>
     <string name="readmode_battery">Battery </string>
     <string name="google_bookmarks">Google:</string>
-    <string name="bookmarks_management">Bookmarks</string>
+    <string name="bookmarks_management">Manage bookmarks</string>
     <string name="bookmarks_root_folder">Root folder</string>
     <string name="bookmarks_content_is_null">No bookmarks</string>
     <string name="history_browsed">Browsing history</string>

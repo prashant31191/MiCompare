@@ -124,6 +124,8 @@ Disable floating windows?"</string>
     <string name="pref_title_garbage_cleanup_check_time">Trash alarm</string>
     <string name="pref_summary_garbage_cleanup_check_size">Notify me when Trash reaches a certain size</string>
     <string name="pref_title_garbage_cleanup_check_size">Trash alarm size</string>
+    <string name="pref_title_expand_cache_group">Expand the cache groups</string>
+    <string name="pref_summary_expand_cache_group">Groups in the cache list will default expand</string>
     <string name="msg_cleanup_db_update_checking">Checking…</string>
     <string name="msg_update_error_code_success">Updated</string>
     <string name="msg_update_error_code_no_newer_db">No updates available</string>
@@ -202,6 +204,8 @@ Disable floating windows?"</string>
     <string name="notification_button_text_of_low_memory">Clean-up</string>
     <string name="notification_title_of_low_memory">The system stroage has used %s</string>
     <string name="notification_summary_of_low_memory">When low memory,will not install new apps</string>
+    <string name="garbage_white_list_empty_content">White list is empty</string>
+    <string name="toast_garbage_cleanup_success">Clean up success</string>
     <string name="opt_clean_garbage">Cleared %d MB</string>
     <string name="opt_killed_process">Killed %d processes</string>
     <string name="opt_freed_ram">Freed %dMBs of memory</string>
@@ -628,6 +632,7 @@ Be careful, granting root permission to third-party apps may destabilize your de
     <string name="preference_key_shortcut_virus_center">key_shortcut_virus_center</string>
     <string name="preference_key_shortcut_perm_center">key_shortcut_perm_center</string>
     <string name="preference_key_auto_update_cleanup_db">key_auto_update_cleanup_db</string>
+    <string name="preference_key_default_expand_cache_group">key_default_expand_cache_group</string>
     <string name="preference_key_manual_update_cleanup_db">key_manual_update_cleanup_db</string>
     <string name="preference_key_create_permanent_notification">key_create_permanent_notification</string>
     <string name="preference_key_garbage_cleanup_auto_check_time">key_garbage_cleanup_auto_check_time</string>
@@ -911,6 +916,11 @@ Be careful, granting root permission to third-party apps may destabilize your de
     <string name="notification_title_firewall_blocked">Blocked</string>
     <string name="pref_category_title_securitycenter_settings">Security Center settings</string>
     <string name="pref_category_title_module_settings">Each functional module settings</string>
+    <string name="Settings_title_garbage_cleanup">Garbage cleanup settings</string>
+    <string name="Settings_title_network_assistants">Network assistant settings</string>
+    <string name="Settings_title_anti_spam">Antispam settings</string>
+    <string name="Settings_title_power_center">Power manager settings</string>
+    <string name="Settings_title_anti_virus">AntiVirus settings</string>
     <string name="virus_scan_virus_title">%d viruses detected!</string>
     <string name="virus_scan_risk_title">%d suspicious apps detected</string>
     <string name="virus_button_clear">Clean up</string>
