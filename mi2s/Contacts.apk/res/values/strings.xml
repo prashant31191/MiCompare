@@ -796,6 +796,7 @@ Choose one of the following options:"</string>
     <string name="calllog_menu_edit_before_call">Edit</string>
     <string name="calllog_menu_send_sms">Send a message</string>
     <string name="menu_call_ip_number">Dial IP call (dial %s)</string>
+    <string name="menu_dial_ip_number">Dial IP call</string>
     <string name="delete_contact_calllog_title">Delete call logs?</string>
     <string name="delete_unknown_contact_calllog_title">Delete call logs?</string>
     <string name="callrecordview_menu_batch_delete">Delete batch</string>
