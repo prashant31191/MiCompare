@@ -167,6 +167,16 @@
         <item>Cantonese Male voice</item>
         <item>cartoon</item>
     </string-array>
+    <string-array name="voice_wakeup_values">
+        <item>Xiaomixiaomikaiji</item>
+        <item>Xiaomixiaomikuailai</item>
+        <item>Xiaomixiaomiqichuang</item>
+    </string-array>
+    <string-array name="voice_wakeup_entries">
+        <item>\"Xiaomi xiaomi kai ji\"</item>
+        <item>\"Xiaomi xiaomi kuai le\"</item>
+        <item>\"Xiaomi xiaomi qi chuang\"</item>
+    </string-array>
     <string-array name="send_item">
         <item>短信</item>
         <item>邮件</item>

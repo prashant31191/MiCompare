@@ -11,9 +11,9 @@
     <string name="application_forbid_auto_startup">Forbid %s from starting in background</string>
     <string name="floating_window_switch_label">Show popup windows</string>
     <string name="floating_window_switch_label_disable">Hide popup windows</string>
-    <string name="app_floating_window_dlg_enable">"Enabling of %1$s's floating window settings requires the app to restart. You can also manually stop running the app yourself. 
+    <string name="app_floating_window_dlg_enable">"Enabling %1$s's floating window settings requires the app to restart. You can also stop running the app manually.
 Enable floating windows?"</string>
-    <string name="app_floating_window_dlg_disable">"Disabling of %1$s's floating window settings will stop the app forcibly. You can also manually open app.
+    <string name="app_floating_window_dlg_disable">"Disabling %1$s's floating window settings will stop the app.
 Disable floating windows?"</string>
     <string name="dlg_ok">OK</string>
     <string name="dlg_cancel">Cancel</string>
@@ -206,6 +206,8 @@ Disable floating windows?"</string>
     <string name="notification_summary_of_low_memory">When low memory,will not install new apps</string>
     <string name="garbage_white_list_empty_content">White list is empty</string>
     <string name="toast_garbage_cleanup_success">Clean up success</string>
+    <string name="dialog_title_load_cleanup_engine_error">Error</string>
+    <string name="dialog_msg_load_cleanup_engine_error">Garbage clean engine has been corrupted, the whole amount of the package or re-brush brush!</string>
     <string name="opt_clean_garbage">Cleared %d MB</string>
     <string name="opt_killed_process">Killed %d processes</string>
     <string name="opt_freed_ram">Freed %dMBs of memory</string>
@@ -688,12 +690,12 @@ Be careful, granting root permission to third-party apps may destabilize your de
     <string name="virus_scanner_provider">Definitions provided by %s</string>
     <string name="virus_scanner_module">Tencent</string>
     <string name="virus_scanner_auto_update">Update automatically</string>
-    <string name="virus_scanner_date_formater">dd MMM. yyyy</string>
+    <string name="virus_scanner_date_formater">MMM dd yyyy</string>
     <string name="virus_scanner_manual_update">Updated %s</string>
     <string name="virus_scanner_lib_updating">Updating definitions…</string>
-    <string name="virus_scanner_lib_already_latest">You are already using the latest definitions :)</string>
+    <string name="virus_scanner_lib_already_latest">"You're already using the latest definitions"</string>
     <string name="virus_scan_app_safe_scanning">Scanning…</string>
-    <string name="virus_scan_app_multi_engines">You’re using more than one set of definitions. The scan may take longer.</string>
+    <string name="virus_scan_app_multi_engines">The scan may take longer. Youre using more than one set of definitions.</string>
     <string name="virus_scan_app_scanning">Scanning…</string>
     <string name="virus_scan_app_waiting">Waiting…</string>
     <string name="virus_scan_app_passed">Scanned</string>
@@ -702,9 +704,9 @@ Be careful, granting root permission to third-party apps may destabilize your de
     <string name="virus_scan_app_solve">All the processing</string>
     <string name="virus_scan_app_finish">Scan complete</string>
     <string name="virus_scan_app_continue">Continue scan</string>
-    <string name="virus_scan_app_uninstall">Remove (% d)</string>
+    <string name="virus_scan_app_uninstall">Remove %d</string>
     <string name="virus_scan_app_force_stop">Scan paused</string>
-    <string name="virus_scan_app_find_risk">% d risks found</string>
+    <string name="virus_scan_app_find_risk">%d risks found</string>
     <string name="virus_scan_app_scan_finish">Scan complete</string>
     <string name="virus_scan_app_no_risk">No risks found</string>
     <string name="firewall_settings_tab_title">Rules</string>
@@ -1448,13 +1450,13 @@ Type PIN to pair with \"%1$s\". [High Security Enabled: Needs 16 character key]"
     <string name="bluetooth_dock_settings_a2dp">For music and media</string>
     <string name="bluetooth_dock_settings_remember">Remember settings</string>
     <string name="nfc_quick_toggle_title">NFC</string>
-    <string name="nfc_quick_toggle_summary">Allow data exchange when the phone touches another device</string>
+    <string name="nfc_quick_toggle_summary">Allow data exchange when your phone touches another device</string>
     <string name="android_beam_settings_title">Android Beam</string>
     <string name="android_beam_on_summary">NFC content sharing enabled</string>
     <string name="android_beam_off_summary">NFC content sharing disabled</string>
-    <string name="android_beam_disabled_summary">NFC content sharing, require NFC enabled</string>
+    <string name="android_beam_disabled_summary">Turn on NFC now</string>
     <string name="android_beam_label">Android Beam</string>
-    <string name="android_beam_explained">You can beam a web page, a video, or other content from your screen to another device, which also supports Android Beam, by touching the devices together (typically back to back).</string>
+    <string name="android_beam_explained">You can beam a web page, a video, or other content from your screen to another device, by touching the devices together (typically back to back).</string>
     <string name="nsd_quick_toggle_title">Network service discovery</string>
     <string name="nsd_quick_toggle_summary">Allow apps on other devices to discover apps on this device</string>
     <string name="wifi_quick_toggle_title">WLAN</string>
@@ -1485,7 +1487,7 @@ Type PIN to pair with \"%1$s\". [High Security Enabled: Needs 16 character key]"
     <string name="wifi_menu_connect">Connect to network</string>
     <string name="wifi_menu_forget">Forget network</string>
     <string name="wifi_menu_modify">Modify network</string>
-    <string name="wifi_empty_list_wifi_off">To see available networks, turn WLAN on</string>
+    <string name="wifi_empty_list_wifi_off">To view available networks, turn on WLAN</string>
     <string name="wifi_empty_list_wifi_on">Searching for WLAN networks…</string>
     <string name="wifi_other_network">Other network…</string>
     <string name="wifi_more">More</string>
@@ -1692,9 +1694,9 @@ Type PIN to pair with \"%1$s\". [High Security Enabled: Needs 16 character key]"
     <string name="title_font_size">Font size</string>
     <string name="summary_font_size">%1$s</string>
     <string name="dialog_title_font_size">Font size</string>
-    <string name="sim_lock_settings">SIM card lock settings</string>
-    <string name="sim_lock_settings_category">Setup SIM card lock</string>
-    <string name="sim_lock_settings_title">SIM card lock</string>
+    <string name="sim_lock_settings">SIM lock settings</string>
+    <string name="sim_lock_settings_category">Setup SIM lock</string>
+    <string name="sim_lock_settings_title">SIM lock</string>
     <string name="sim_pin_toggle">Lock SIM card</string>
     <string name="sim_lock_on">Require PIN to use phone</string>
     <string name="sim_lock_off">Require PIN to use phone</string>
@@ -1716,9 +1718,8 @@ Possibly incorrect PIN."</string>
 Possibly incorrect PIN."</string>
     <string name="sim_enter_ok">OK</string>
     <string name="sim_enter_cancel">Cancel</string>
-    <string name="sim_change_failed_enable_sim_lock">Enable SIM Lock to change PIN</string>
-    <string name="sim_lock_change_not_supported">"Unable to Change SIM Lock.
- SIM doesn't support it."</string>
+    <string name="sim_change_failed_enable_sim_lock">Enable SIM lock now</string>
+    <string name="sim_lock_change_not_supported">"Can't change SIM lock."</string>
     <string name="sim_pin_attempts">"
 Attempts Remaining :"</string>
     <string name="sim_pin_enabled">PIN1 Enabled!</string>
@@ -1727,7 +1728,7 @@ Attempts Remaining :"</string>
     <string name="system_update_settings_list_item_title">System updates</string>
     <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Android Version</string>
-    <string name="model_number">Model Number</string>
+    <string name="model_number">Model number</string>
     <string name="fcc_equipment_id">Equipment ID</string>
     <string name="baseband_version">Baseband version</string>
     <string name="kernel_version">Kernel version</string>
@@ -2124,7 +2125,7 @@ Ready to start? Touch Next."</string>
     <string name="auto_punctuate_summary">Press Space key twice to insert \".\"</string>
     <string name="show_password">Make passwords visible</string>
     <string name="show_password_summary" />
-    <string name="ime_security_warning">%1$sThis input method can save all text that you input, including passwords, credit card numbers, and other personal data. Do you want to use this input method?</string>
+    <string name="ime_security_warning">%1$sThis input method can record everything you type, including passwords, credit card numbers, and other personal data. Do you want to use this input method?</string>
     <string name="spellchecker_security_warning">This spell checker may be able to collect all the text you type, including personal data like passwords and credit card numbers. It comes from the app %1$s. Use this spell checker?</string>
     <string name="spellchecker_quick_settings">Settings</string>
     <string name="spellchecker_language">Language</string>
@@ -2732,22 +2733,22 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="config_mtp_function_name">mtp</string>
     <string name="config_ptp_function_name">ptp</string>
     <string name="config_mass_storage_function_name">mass_storage</string>
-    <string name="do_not_disturb_mode">Do not disturb</string>
-    <string name="dndm_notification">Do not disturb enabled.</string>
-    <string name="dndm_open">Do not disturb</string>
+    <string name="do_not_disturb_mode">Do Not Disturb</string>
+    <string name="dndm_notification">Do Not Disturb is on</string>
+    <string name="dndm_open">Do Not Disturb</string>
     <string name="dndm_summary">Calls and notifications that arrive while your phone is locked will be silenced</string>
     <string name="dndm_auto_setting_group">Scheduled</string>
-    <string name="dndm_auto_button_title">Time</string>
-    <string name="dndm_auto_time_setting">Time settings</string>
+    <string name="dndm_auto_button_title">Scheduled Do Not Disturb time</string>
+    <string name="dndm_auto_time_setting">Set time</string>
     <string name="dndm_auto_time_setting_summary">From %1$s to %2$s</string>
     <string name="dndm_auto_time_turn_on">From</string>
-    <string name="dndm_auto_time_turn_on_title">Automatically turn on do not disturb</string>
+    <string name="dndm_auto_time_turn_on_title">Automatically turn on Do Not Disturb</string>
     <string name="dndm_auto_time_turn_off">To</string>
-    <string name="dndm_auto_time_turn_off_title">Automatically turn off do not disturb</string>
-    <string name="dndm_dlg_remove_vip">Remove from exceptions list?</string>
+    <string name="dndm_auto_time_turn_off_title">Automatically turn off Do Not Disturb</string>
+    <string name="dndm_dlg_remove_vip">Calls from this person will be silenced when Do Not Disturb is on.</string>
     <string name="dndm_dlg_remove_ok">Remove</string>
     <string name="dndm_menu_add_vip_custom">Add exception</string>
-    <string name="dndm_mute_all">Silence calls and messages</string>
+    <string name="dndm_mute_all">Silence calls and messages.</string>
     <string name="dndm_special_call_setting_group">Exceptions</string>
     <string name="dndm_vip_call_setting_title">Exceptions settings</string>
     <string name="dndm_vip_call_summary_none">Touch to configure</string>
@@ -2760,8 +2761,8 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="dndm_vip_list_custom_group">Exceptions</string>
     <string name="dndm_repeated_call_setting_title">Repeated calls</string>
     <string name="dndm_repeated_call_summary_none">Silence repeated calls from the same number</string>
-    <string name="dndm_repeated_call_summary_3min">If the same caller calls you again within three minutes, phone will ring</string>
-    <string name="dndm_twelve_hour_time_format">a h:mm</string>
+    <string name="dndm_repeated_call_summary_3min">Ring when receiving a second call from the same number within 3 minutes</string>
+    <string name="dndm_twelve_hour_time_format">h:mm a</string>
     <string name="dndm_twenty_four_hour_time_format">HH:mm</string>
     <string name="search_airplane">airplane</string>
     <string name="search_network">network</string>
@@ -2810,10 +2811,10 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="sms_delivered_sound_title">Message delivered</string>
     <string name="sms_received_sound_dialog_title">Choose text received sound</string>
     <string name="sms_delivered_sound_dialog_title">Choose text delivered sound</string>
-    <string name="haptic_feedback_level">Vibration level</string>
+    <string name="haptic_feedback_level">Vibration</string>
     <string name="privacy_protect_title">Privacy protection</string>
     <string name="privacy_mode_enable_title">Guest mode</string>
-    <string name="privacy_mode_enable_sum">Messages, notes, pictures, and incoming calls will be hidden from user</string>
+    <string name="privacy_mode_enable_sum">Hide messages, notes, pictures, and incoming calls</string>
     <string name="ac_enable_title">Permissions</string>
     <string name="ac_set_apps_title">Lock apps</string>
     <string name="ac_privacy_mode_title">Password</string>
@@ -2832,12 +2833,12 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="launcher_settings_title">Launcher</string>
     <string name="screen_timeout_title">Sleep mode</string>
     <string name="screen_never_timeout_title">Never sleep</string>
-    <string name="screen_on_proximity_sensor_title">Prevent pocket dials</string>
-    <string name="screen_on_proximity_sensor_summary">Phone will lock automatically when placed in a pocket</string>
-    <string name="preferred_launcher_title">Preferred launcher</string>
-    <string name="preferred_application_title">Preferred %s</string>
+    <string name="screen_on_proximity_sensor_title">Prevent Pocket Dials</string>
+    <string name="screen_on_proximity_sensor_summary">"Lock phone automatically when it's placed in a pocket"</string>
+    <string name="preferred_launcher_title">Default launcher</string>
+    <string name="preferred_application_title">Default %s</string>
     <string name="preferred_application_warning_title">Replace default %s</string>
-    <string name="preferred_application_warning_message">Replacing your default %1$s may increase power consumption, reduce speed, and can put phone contents at risk. Suggest using default %2$s.</string>
+    <string name="preferred_application_warning_message">"Replacing your default %1$s may increase power consumption, reduce speed, and can put your phone's contents at risk. Use %2$s instead."</string>
     <string name="preferred_application_warning_replace">Replace</string>
     <string name="preferred_application_warning_use_system">Use default %s</string>
     <string name="key_settings_title">Buttons</string>
@@ -2857,15 +2858,15 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="media_button">Media button</string>
     <string name="preferred_media_app_summary">Choose music player</string>
     <string name="no_media_button_receiver">No</string>
-    <string name="camera_key_action_title">MI Button</string>
-    <string name="camera_key_action_setting_title">MI Button</string>
-    <string name="camera_key_action_category_title">Use of Camera is not permitted</string>
+    <string name="camera_key_action_title">Mi Button</string>
+    <string name="camera_key_action_setting_title">Mi Button</string>
+    <string name="camera_key_action_category_title">"Can't use Camera"</string>
     <string name="camera_key_action_none_title">No action</string>
     <string name="camera_key_action_shortcut_title">Shortcut</string>
     <string name="camera_key_action_toggle_title">Trigger toggle</string>
     <string name="camera_key_action_app_title">Open app</string>
     <string name="camera_key_action_shortcut_home">Home screen</string>
-    <string name="camera_key_action_shortcut_screenshot">Screen shot</string>
+    <string name="camera_key_action_shortcut_screenshot">Screenshot</string>
     <string name="camera_key_action_shortcut_search">Search</string>
     <string name="camera_key_action_shortcut_call">Call</string>
     <string name="camera_key_action_shortcut_wake">Lock device</string>
@@ -2880,9 +2881,9 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="battery_indicator_style">Battery indicator</string>
     <string name="power_usage_history">Battery use</string>
     <string name="default_usb_mode">USB connection</string>
-    <string name="unlock_set_unlock_summary">Please set a screen lock</string>
+    <string name="unlock_set_unlock_summary">Set a screen lock</string>
     <string name="lock_settings_picker_settings">Set screen lock</string>
-    <string name="lock_screen_unlock_show">Disable swipe screen</string>
+    <string name="lock_screen_unlock_show">Skip swipe screen</string>
     <string name="lock_screen_unlock_show_summary">Go to directly to Home screen or password input from wake</string>
     <string name="date_time_settings">Date &amp; time</string>
     <string name="timezone_settings">Time zone</string>
@@ -2926,7 +2927,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="headset_calibrate_volume_down">Decrease volume</string>
     <string name="headset_calibrate_prev_track">Previous track</string>
     <string name="headset_calibrate_next_track">Next track</string>
-    <string name="headset_calibrate_confirm">Apply new functions?</string>
+    <string name="headset_calibrate_confirm">Apply these settings?</string>
     <string name="headset_no_contected">No headphones detected</string>
     <string name="headset_calibrate_wrong_key">"That's the wrong button"</string>
     <string name="apn_new">New Access Point</string>
@@ -2935,14 +2936,14 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="activating">Activating…</string>
     <string name="wifi_enable_watchdog_service_summary">Avoid poor connections</string>
     <string name="wifi_disabled_help">WLAN was disconnected due to poor connection</string>
-    <string name="wifi_wps_overlap_error">Another WLAN session was detected. Try again in a few minutes.</string>
+    <string name="wifi_wps_overlap_error">Another WLAN session was detected. Wait a minute or two and try again.</string>
     <string name="wifi_p2p_wps_setup">WPS setup</string>
     <string name="default_input_method">Choose default input method</string>
     <string name="volume_category_title">Volume</string>
     <string name="vibrate_category_title">Vibrate</string>
     <string name="vibrate_in_normal_title">Vibrate when ringing</string>
     <string name="silent_mode_title">Silent mode</string>
-    <string name="wifi_wapi_certification_dont_exist">The network password you typed is not correct. Please try again.</string>
+    <string name="wifi_wapi_certification_dont_exist">The network password you entered is incorrect.</string>
     <string name="please_type_passphrase">Password</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
@@ -3008,7 +3009,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="volume_system_description">Camera shutter, lock screen, and other system notifications</string>
     <string name="volume_bluetooth_description">Bluetooth</string>
     <string name="volume_restore">Reset levels</string>
-    <string name="volume_restore_alert">"When you reset volumes to their default levels you're current level settings will be erased."</string>
+    <string name="volume_restore_alert">"You're current volume level settings will be erased."</string>
     <string name="sound_category_calls_and_notification_title">Ringtone &amp; notifications</string>
     <string name="font_size_preview">MIUI</string>
     <string name="font_size_summary">"Change the operating system's font size"</string>
@@ -3057,13 +3058,13 @@ Since data usage is measured by your phone, and your carrier may account for usa
     <string name="power_mode">Power settings</string>
     <string name="skip_step">Skip this step</string>
     <string name="msd_help_title">MTP Help</string>
-    <string name="msd_help_summary">"Difficulty accessing your device via computer?
-Select your computer’s operating system:"</string>
-    <string name="msd_install_succeed">Driver installed.</string>
+    <string name="msd_help_summary">"Having trouble accessing your device via computer?
+Select your operating system:"</string>
+    <string name="msd_install_succeed">Driver installed</string>
     <string name="msd_install_next">Next</string>
     <string name="msd_install">Reinstall the driver.</string>
     <string name="msd_install_finish">OK</string>
-    <string name="msd_install_windows_xp_step_2_1">Follow the steps in Setup Wizard to complete installation.</string>
+    <string name="msd_install_windows_xp_step_2_1">Follow the steps in the Setup Wizard to complete installation.</string>
     <string name="msd_install_retry_windows_xp">"If the computer failed to detect your phone,
 Try the following:
 "<li>1) Reconnect the USB cable.</li>"
@@ -3072,26 +3073,26 @@ Try the following:
 Try reconnecting the USB cable."</string>
     <string name="msd_install_retry_mac">"If the computer failed to detect your phone,
 Try the following:
-"<li>"Do a search for
+"<li>"1) Do a search for
 Android File Transfer,
 and run the software."</li>"
-"<li>Reconnect the USB cable.</li>"
-"<li>Reinstall the driver.</li></string>
+"<li>2) Reconnect the USB cable.</li>"
+"<li>3) Reinstall the driver.</li></string>
     <string name="msd_install_retry_linux">"If the computer failed to detect your phone,
 Try the following:
-1) Use installation tool \"sudo aptitude install mtpfs libfuse-dev libmad0-dev\"
+1) Use the install tool \"sudo aptitude install mtpfs libfuse-dev libmad0-dev\"
 2) Create a directory \"mkdir\" /media/mtp
 3) Confirm user group permissions in the current fuse user group
 4) Sign in again
 5) Access mounted device mtpfs /media/mtp via File explorer; same as local directory
 6) Uninstall device fusermount -u /media/mtp
- Note: For ubuntu 8.04 environment"</string>
+ (Ubuntu 8.04)"</string>
     <string name="msd_install_status_undo">Install driver</string>
     <string name="msd_install_status_done">Driver installed.</string>
     <string name="msd_driver_download">Download driver</string>
-    <string name="msd_driver_windows_xp_download">"For PCs, download the driver and click Setup.exe to install
+    <string name="msd_driver_windows_xp_download">"For Windows, download the driver and click Setup.exe to install
 Get the driver at http://miui.com/win"</string>
-    <string name="msd_driver_mac_download">"For Macs, download the driver and click AndroidFileTransfer.dmg to install
+    <string name="msd_driver_mac_download">"For OSX, download the driver and click AndroidFileTransfer.dmg to install
 Get the driver at http://miui.com/mac"</string>
     <string name="vpn_settings_password">VPN</string>
     <string name="vpn_safe">Security</string>
@@ -3125,7 +3126,7 @@ Get the driver at http://miui.com/mac"</string>
     <string name="drive_mode_auto_sms_reply_content_title">Quick response</string>
     <string name="clear_activities_summary">Use this app for some operations by default</string>
     <string name="permission_detail_info">Permission details</string>
-    <string name="permission_detail_info_summary">Permissions: Security %1$d，Privacy %2$d，Other %3$d</string>
+    <string name="permission_detail_info_summary">Permissions: Security %1$d | Privacy %2$d | Other %3$d</string>
     <string name="permission_manage">Manage permissions</string>
     <string name="permission_manage_summary">Auto start, privacy, secure permission management</string>
     <string name="other_relative">Other permissions</string>
@@ -3145,7 +3146,7 @@ Get the driver at http://miui.com/mac"</string>
     <string name="brightness_auto_adjust_off">Screen brightness will remain constant in all surroundings</string>
     <string name="brightness_auto_adjust_on">Screen brightness will vary in relation to the light in your surroundings</string>
     <string name="private_sms_need_to_unlock">Password required:</string>
-    <string name="private_sms_reset_by_account">To reset password, sign in to your Mi Account</string>
+    <string name="private_sms_reset_by_account">To reset your password, sign in to your Mi Account</string>
     <string name="private_sms_recording_intro_header">Draw an unlock pattern:</string>
     <string name="dirac_control">MI Sound</string>
     <string name="cancel_alert">Discard your changes?</string>
@@ -3154,7 +3155,7 @@ Get the driver at http://miui.com/mac"</string>
     <string name="sim_status_title">SIM status</string>
     <string name="slot_status_title">IMEI information</string>
     <string name="xiaomi_cloud_service">Mi Cloud</string>
-    <string name="xiaomi_money_service">Mi Credit center</string>
+    <string name="xiaomi_money_service">Mi Credit</string>
     <string name="lock_settings_common_title">Lock settings</string>
     <string name="turn_off_security_lock">Disable screen lock</string>
     <string name="change_password">Change password</string>
@@ -3184,7 +3185,7 @@ Get the driver at http://miui.com/mac"</string>
     <string name="wifi_share_connected_title">MIUI shared WLAN</string>
     <string name="wifi_share_connected_summary">"You're connected to a public WLAN network that has been shared by another user"</string>
     <string name="wifi_share_action_turn_on">Share WLAN</string>
-    <string name="wifi_share_action_turn_on_summary">Sign in to your Mi Account to share</string>
+    <string name="wifi_share_action_turn_on_summary">To share, sign in to your Mi Account</string>
     <string name="wifi_share_action_turn_off">Stop sharing networks</string>
     <string name="wifi_share_list_empty">No shared networks found</string>
     <string name="wifi_share_connect">Connect</string>
@@ -3195,23 +3196,23 @@ Get the driver at http://miui.com/mac"</string>
     <string name="noise_suppression">Ambient noise suppression</string>
     <string name="phone_call_noise_suppression">Suppress noise during calls</string>
     <string name="sync_wifi_only">WLAN only</string>
-    <string name="open_wifi_connect_title">Connect to open network %1$s</string>
-    <string name="open_wifi_connect_summary">Tap to manage</string>
-    <string name="free_wifi_summary">Free WLAN，provided in part by %1$s</string>
+    <string name="open_wifi_connect_title">Connect to %1$s</string>
+    <string name="open_wifi_connect_summary">Tap to view details.</string>
+    <string name="free_wifi_summary">Tap to connect to %1$s.</string>
     <string name="free_wifi_connect_title">WLAN available</string>
-    <string name="free_wifi_connect_summary">This free WLAN connection is provided in part by %1$s. Tap to connect.</string>
-    <string name="free_wifi_connect_dialog_title">Free WLAN available</string>
-    <string name="free_wifi_connect_dialog_summary">This free WLAN %1$s is provided in part by %2$s.</string>
+    <string name="free_wifi_connect_summary">Tap to connect to %1$s.</string>
+    <string name="free_wifi_connect_dialog_title">WLAN available</string>
+    <string name="free_wifi_connect_dialog_summary">%1$s provided by %2$s.</string>
     <string name="free_wifi_wiwide_provider">WiWide</string>
     <string name="free_wifi_connect">Connect</string>
-    <string name="free_wifi_connecting">Connecting...</string>
+    <string name="free_wifi_connecting">Connecting…</string>
     <string name="free_wifi_connected">Connected to free WLAN</string>
-    <string name="free_wifi_connect_fail">"Couldn't connect to network"</string>
-    <string name="free_wifi_connect_fail2">Couldn’t sign in. Wait a minute or two and try again.</string>
+    <string name="free_wifi_connect_fail">"Can't connect to the network. Check your data connection and try again."</string>
+    <string name="free_wifi_connect_fail2">"Can't sign in. Wait a minute or two and try again."</string>
     <string name="free_wifi_login_again">Sign in again</string>
     <string name="free_wifi_connected_count">%1$s users connected</string>
     <string name="free_wifi_speed_title">Slow connection?</string>
-    <string name="free_wifi_connected_time">Online duration：%1$s</string>
+    <string name="free_wifi_connected_time">Duration: %1$s</string>
     <string name="free_wifi_confirm">Confirm</string>
     <string name="miui_screensaver_state_on">On</string>
     <string name="miui_screensaver_state_off">Off</string>
@@ -3226,6 +3227,6 @@ Get the driver at http://miui.com/mac"</string>
     <string name="alert_show_screensaver_when_not_charging_msg">Power will be consumed more quickly if showing screensaver when not charging. Are you sure to close this option?</string>
     <string name="preferred_app_settings">Default application Settings</string>
     <string name="preferred_app_settings_default">Default</string>
-    <string name="preferred_app_settings_reset">Restore to default</string>
-    <string name="preferred_app_settings_reset_message">Are you sure to restore to default application Settings?</string>
+    <string name="preferred_app_settings_reset">Restore default apps?</string>
+    <string name="preferred_app_settings_reset_message">All default apps will be restored to MIUI presets.</string>
 </resources>

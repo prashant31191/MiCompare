@@ -410,6 +410,7 @@ To add a contact to your list of favorites:
     <string name="description_view_contact_detail">View contact</string>
     <string name="no_sdcard_message">No storage was found.</string>
     <string name="import_from_sim">Import from SIM card</string>
+    <string name="import_from_sim2">Import from SIM card 2</string>
     <string name="import_from_sdcard">Import from storage</string>
     <string name="export_to_sdcard">Export to storage</string>
     <string name="share_visible_contacts">Share contacts</string>
@@ -451,10 +452,10 @@ Reason: \"%s\""</string>
     <string name="fail_reason_no_exportable_contact">There is no exportable contact.</string>
     <string name="fail_reason_too_many_vcard">Too many vCard files are in the storage.</string>
     <string name="fail_reason_too_long_filename">Required filename is too long (\"%s\").</string>
-    <string name="exporting_vcard_finished_title">Finished exporting %s.</string>
+    <string name="exporting_vcard_finished_title">Exporting %s finished.</string>
     <string name="exporting_vcard_canceled_title">Exporting %s canceled.</string>
     <string name="exporting_contact_list_title">Exporting contact data</string>
-    <string name="exporting_contact_list_message">Your contact data is being exported to: %s.</string>
+    <string name="exporting_contact_list_message">Exporting to %s.</string>
     <string name="fail_reason_could_not_initialize_exporter">"Couldn't start the exporter: \"%s\"."</string>
     <string name="fail_reason_error_occurred_during_export">An error occurred during export: \"%s\".</string>
     <string name="composer_failed_to_get_database_infomation">"Couldn't get database information."</string>
@@ -542,6 +543,7 @@ Reason: \"%s\""</string>
     <string name="sms_assistant">Text %s</string>
     <string name="sms_mms">Text MMS</string>
     <string name="sms">Text message</string>
+    <string name="eventTypeCustom">Custom</string>
     <string name="email_home">Email home</string>
     <string name="email_mobile">Email mobile</string>
     <string name="email_work">Email work</string>
@@ -752,7 +754,8 @@ Choose one of the following options:"</string>
     <string name="callrecordview_menu_show_called">Outgoing calls</string>
     <string name="callrecordview_menu_show_accepted">Answered calls</string>
     <string name="callrecordview_menu_show_stranger">Calls from unknown numbers</string>
-    <string name="callrecordview_menu_show_new">New contacts</string>
+    <string name="callrecordview_menu_show_new">New Contacts</string>
+    <string name="callrecordview_menu_show_sim">%s calls</string>
     <string name="callrecordview_menu_delete">Clear call log</string>
     <string name="callrecordview_menu_delete_all">Clear call log</string>
     <string name="callrecordview_menu_delete_missed">Clear missed calls</string>
@@ -760,6 +763,7 @@ Choose one of the following options:"</string>
     <string name="callrecordview_menu_delete_accepted">Clear answered calls</string>
     <string name="callrecordview_menu_delete_stranger">Clear unknown numbers</string>
     <string name="callrecordview_menu_delete_new">Clear call logs of new contacts</string>
+    <string name="callrecordview_menu_delete_sim">Clear %s call logs</string>
     <string name="callrecordview_menu_delete_confirm">%s?</string>
     <string name="callrecordview_menu_delete_one">Remove from call log</string>
     <string name="callrecordview_menu_add_call_note">Add call note</string>
@@ -848,6 +852,7 @@ Choose one of the following options:"</string>
     <string name="import_vcard_description">"Import contacts from your phone's internal storage"</string>
     <string name="export_vcard_description">"Export vCard to phone's internal storage"</string>
     <string name="export_to_sim">Export to SIM card</string>
+    <string name="export_to_sim2">Export to SIM card 2</string>
     <string name="export_to_sim_title">Exporting…</string>
     <string name="sim_card_no_free_space_title">SIM card full</string>
     <string name="sim_card_no_free_space_message">Not enough space</string>
@@ -870,6 +875,7 @@ Choose one of the following options:"</string>
     <string name="pref_key_rebuild_t9_index_title">Rebuild index data</string>
     <string name="pref_key_rebuild_t9_index_message">Rebuild index to resolve search issues</string>
     <string name="pref_key_sim_manage">Configure SIM card</string>
+    <string name="pref_key_sim_manage2">Configure SIM card 2</string>
     <string name="pref_key_photo">Photo</string>
     <string name="pref_key_photo_word_title">Assign contact photos</string>
     <string name="pref_key_photo_word_summary">Automatically assign a picture to contacts without one</string>
@@ -904,6 +910,7 @@ Choose one of the following options:"</string>
     <string name="cloud_antispam_title">Indentify unknown numbers</string>
     <string name="account_default">Phone</string>
     <string name="account_sim">SIM card</string>
+    <string name="account_sim2">SIM card %d</string>
     <string name="lunarBirthdayLabelsGroup">Lunar birthday</string>
     <string name="option_view_contact">View</string>
     <string name="option_edit_contact">Edit</string>
@@ -1111,19 +1118,19 @@ Choose one of the following options:"</string>
     <string name="call_record_setting_miui">Record settings</string>
     <string name="accessibility_calllog_detail">Call log details</string>
     <string name="select_groups">Select groups</string>
-    <string name="sim_capacity">View SIM card capacity</string>
-    <string name="sim_capacity_content" formatted="false">Total capacity %d | %d used</string>
-    <string name="sim_contact_existing">Contact already exists</string>
+    <string name="sim_capacity">View SIM Card Capacity</string>
+    <string name="sim_capacity_content" formatted="false">Total capacity %d, used %d</string>
+    <string name="sim_contact_existing">The SIM contact is already existing.</string>
     <string name="sim_contact_invalid">Invalid SIM contact</string>
-    <string name="sim_error_generic_failure">An error occurred</string>
-    <string name="sim_error_storage_full">SIM card storage is full</string>
-    <string name="sim_error_not_ready">Loading SIM contacts…</string>
-    <string name="sim_error_text_too_long">Name is too long</string>
-    <string name="sim_error_number_too_long">Number is too long</string>
-    <string name="sim_error_email_too_long">Email is too long</string>
-    <string name="sim_error_email_full">Not enough space on SIM card</string>
-    <string name="sim_error_anr_full">Not enough space on SIM card</string>
-    <string name="sim_error_password_error">The password you entered is incorrect</string>
+    <string name="sim_error_generic_failure">Generic Failure.</string>
+    <string name="sim_error_storage_full">Storage is full.</string>
+    <string name="sim_error_not_ready">Loading SIM contacts, please wait for a mement…</string>
+    <string name="sim_error_text_too_long">Name is too long.</string>
+    <string name="sim_error_number_too_long">Number is too long.</string>
+    <string name="sim_error_email_too_long">Email is too long.</string>
+    <string name="sim_error_email_full">Storage for email is full.</string>
+    <string name="sim_error_anr_full">storage for number is full.</string>
+    <string name="sim_error_password_error">Password error.</string>
     <string name="yellowPageNavigationLabel">Directory</string>
     <string name="yellowPageNavigationIconLabel">Directory</string>
     <string name="login_ok">Sign in</string>
@@ -1142,4 +1149,7 @@ Choose one of the following options:"</string>
     <string name="yellowpage_navigation_network_location_not_enabled_summary">Directory provides services according to your city and enabling WLAN &amp; mobile network location service can improve the quality of services.</string>
     <string name="yellowpage_navigation_network_location_enable">Enable now</string>
     <string name="yellowpage_navigation_network_location_enable_later">Enable later</string>
+    <string name="sim_contact_number_missing">SIM contact number is missing.</string>
+    <string name="imei_invalid">Invalid IMEI</string>
+    <string name="meid_invalid">Invalid MEID</string>
 </resources>

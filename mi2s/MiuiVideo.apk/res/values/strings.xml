@@ -256,6 +256,7 @@
     <string name="lekan">Lekan</string>
     <string name="dianyingwang">M1905</string>
     <string name="letv">Letv</string>
+    <string name="cnlive">cnlive</string>
     <string name="unknown_source">Unknown source</string>
     <string name="hint_can_not_get_source_info">"Can't find video source's info"</string>
     <string name="hint_without_selected_set">No source selected, finding source automatically…</string>

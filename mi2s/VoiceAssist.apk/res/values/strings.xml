@@ -42,7 +42,9 @@
     <string name="net_recommend">网友推荐: %1$s</string>
     <string name="restaurant_feature">餐厅特色:</string>
     <string name="net_comment">网友点评</string>
-    <string name="avg_price">人均：￥%1$s</string>
+    <string name="avg_price">￥%1$s</string>
+    <string name="average">人均 :</string>
+    <string name="avg_price_default">--</string>
     <string name="cancel">取消</string>
     <string name="finish">完成</string>
     <string name="confirm">确定</string>
@@ -155,6 +157,14 @@
     <string name="voice_effect">voice effect</string>
     <string name="voice_choosed">successfully choosed</string>
     <string name="download_failed">Download failed</string>
+    <string name="voice_wakeup">Voice unlock</string>
+    <string name="voice_wakeup_turn_off">Off</string>
+    <string name="voice_wakeup_turn_on">On (not available when playing audio)</string>
+    <string name="voice_wakeup_turn_on_title">Voice unlock</string>
+    <string name="voice_wakeup_turn_on_summary">Use spoken commands to unlock your phone (not available when playing audio)</string>
+    <string name="voice_wakeup_turn_on_confirm">OK</string>
+    <string name="voice_wakeup_turn_on_notice">"Don't show again"</string>
+    <string name="voice_wakeup_keyword_title">Voice actions</string>
     <string name="app_w_1x4">天气 1x4</string>
     <string name="app_w_1x4_color">天气 1x4</string>
     <string name="app_w_2x4">天气 2x4</string>
