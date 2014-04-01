@@ -108,6 +108,7 @@
     <string name="sdcard_busy_message_nosdcard">USB storage is busy</string>
     <string name="sdcard_error_message">An error occurred while accessing the SD card</string>
     <string name="sdcard_error_message_nosdcard">An error occurred while accessing USB storage</string>
+    <string name="no_music_to_play">No music to play</string>
     <string name="ringtone_menu">Use as phone ringtone</string>
     <string name="ringtone_set">\"%s\" set as phone ringtone</string>
     <string name="ringtone_not_support">"This format isn't supported"</string>
