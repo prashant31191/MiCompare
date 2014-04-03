@@ -3213,7 +3213,7 @@ Get the driver at http://miui.com/mac"</string>
     <string name="free_wifi_connected_count">%1$s users connected</string>
     <string name="free_wifi_speed_title">Slow connection?</string>
     <string name="free_wifi_connected_time">Duration: %1$s</string>
-    <string name="free_wifi_confirm">Confirm</string>
+    <string name="free_wifi_confirm">I know</string>
     <string name="miui_screensaver_state_on">On</string>
     <string name="miui_screensaver_state_off">Off</string>
     <string name="miui_screensaver_title">Screensaver</string>
